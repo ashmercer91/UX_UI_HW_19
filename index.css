@@ -1,0 +1,229 @@
+
+body{
+    background-color: #f8b16e;
+}
+
+nav{
+    background-color: #f8b16e;
+    font-size: larger;
+    font: bolder;
+}
+
+.container-fluid{
+    display: flex;
+    padding-left: 5%;
+}
+
+.dropdown-menu text{
+    color:#3a4671;
+}
+
+
+.portPic img{
+    height: 130vh; width: 1150px;
+    margin-left: 4%;
+    margin-right: 4%; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container-main{
+    display:flex;
+    justify-content: center;
+}
+
+.projectsMain{
+    margin-left: 37%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.card{
+    background-color: #3a4671;
+    color: #f7f7f7;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cprpic{
+    height: 255px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: #456b8c;
+    border-style: solid;
+}
+
+#cprpic:hover{
+    transform: scale(1.1);
+}
+
+#fccpic{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: #456b8c;
+    border-style: solid;
+}
+
+#fccpic:hover{
+    transform: scale(1.1);
+}
+
+#rdrpic{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: #456b8c;
+    border-style: solid;
+}
+
+#rdrpic:hover{
+    transform: scale(1.1);
+}
+
+.btn-primary{
+    background-color: #f8b16e;
+    color: #3a4671;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border-style: solid;
+    border-color: #fbebae;
+    margin-left: 75px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-primary:hover{
+    background-color:#3a4671;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color:#3a4671;
+    text-align: center;
+    padding: 10px;
+    gap: 1.5rem;
+  }
+
+footer button{
+    background-color:#3a4671;
+    border: none;
+    color: #fbebae;
+}
+
+footer button:hover{
+    color: #f8b16e;
+}
+
+/* ABOUT ME */
+
+body#about{
+    background-color:#fbebae;
+}
+
+.aboutMePic{
+    background-color: #f8b16e;
+    padding-left: 120px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.aboutMePic img{
+    border-style: solid;
+    border-color: #3a4671;
+    border-width: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.myValues img{
+    width: 1263px;
+}
+
+
+
+/* CONTACT INFO */
+
+
+.practiceImgs{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+}
+
+.grid-image{
+    background-color: chartreuse;
+    padding: 5px;
+    width: 600px;
+    display: block;
+}
+
+.picTwo{
+    width: 200px;
+    margin: 60px;
+    padding: 50px;
+}
+
+.picThree{
+    width: 800px;
+    height: 400px;
+}
+
+
+/* FCC PAGE */
+
+
+.fccHero{
+    width: 1155px;
+    height: auto;
+    margin-left: 50px;
+    padding: 30px;
+    background-color: #f7f7f7;
+    border-color: #3a4671;
+    border-radius: 4px;
+    border-style: solid;
+}
+
+.container-fcc{
+    display: flex;
+    padding-left: 350px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 58px;
+    margin-bottom: 10px;
+    background-color: #456b8c;
+    color: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-fcc button{
+    margin-left: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container-fccOver{
+    display: flex;
+    justify-content: center;
+
+}
+.card{
+    background-color: #456b8c;
+    margin: 12px;
+}
+
+#fccTesting{
+    margin-left: 30px;
+}
+
+.fccissues{
+    font-size: small;
+}
+
+.container-fccp3 img{
+    margin-left: 90px;
+    height: 450px;
+    width: 1085px;
+}
+
